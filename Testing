@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple HTML Page</title>
+    <title>Complex HTML Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, world!</h1>
-    <p>This is a simple HTML page.</p>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>   
+
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product   
+ 1</h3>
+                <p>Description of Product 1</p>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Description of Product 2</p>
+            </div>   
+
+        </section>
+
+        <section>   
+
+            <h2>Latest News</h2>
+            <article>
+                <h3>News Article 1</h3>
+                <p>Content of News Article 1</p>
+            </article>
+            <article>
+                <h3>News Article 2</h3>
+                <p>Content of News Article 2</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
 </body>
-</html>   
+</html>
